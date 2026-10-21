@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>قسم التربية الإسلامية | مدرسة الشيخ أبو قحطان الهجاري</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Tahoma, Arial, sans-serif;
+    background:#f5f7fa;
+    color:#172033;
+    line-height:1.8;
+}
+
+header{
+    background:linear-gradient(135deg,#073b66,#0b6b8e);
+    color:white;
+    padding:45px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+header p{
+    font-size:18px;
+    opacity:.95;
+}
+
+nav{
+    background:white;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav li a{
+    display:block;
+    padding:15px 22px;
+    color:#073b66;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav li a:hover{
+    background:#eaf4f8;
+    color:#b38728;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:35px 20px;
+}
+
+.hero{
+    background:white;
+    border-radius:20px;
+    padding:40px 25px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.07);
+    margin-bottom:30px;
+}
+
+.hero h2{
+    color:#073b66;
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+.hero p{
+    color:#596579;
+    font-size:17px;
+}
+
+.section-title{
+    text-align:center;
+    color:#073b66;
+    margin:35px 0 20px;
+    font-size:28px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px 20px;
+    border-radius:18px;
+    box-shadow:0 5px 18px rgba(0,0,0,.07);
+    text-align:center;
+    transition:.3s;
+    border-top:4px solid #b38728;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.icon{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    color:#073b66;
+    margin-bottom:8px;
+}
+
+.card p{
+    color:#687386;
+    font-size:15px;
+}
+
+.team{
+    background:white;
+    border-radius:20px;
+    padding:30px 20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.07);
+}
+
+.teacher{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:13px 5px;
+    border-bottom:1px solid #e7ebef;
+}
+
+.teacher:last-child{
+    border-bottom:none;
+}
+
+.teacher span:first-child{
+    font-weight:bold;
+    color:#073b66;
+}
+
+.badge{
+    background:#eaf4f8;
+    color:#0b6b8e;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:13px;
+}
+
+.notice{
+    background:linear-gradient(135deg,#fffaf0,#fff);
+    border-right:5px solid #b38728;
+    padding:25px;
+    border-radius:15px;
+    margin-top:25px;
+}
+
+.notice h3{
+    color:#8a671d;
+    margin-bottom:8px;
+}
+
+footer{
+    margin-top:50px;
+    background:#073b66;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer p{
+    margin:5px 0;
+    opacity:.9;
+}
+
+@media(max-width:600px){
+    header h1{
+        font-size:25px;
+    }
+
+    header p{
+        font-size:15px;
+    }
+
+    nav li a{
+        padding:10px 12px;
+        font-size:14px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
+    .teacher{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:5px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>قسم التربية الإسلامية</h1>
+    <p>مدرسة الشيخ أبو قحطان الهجاري (5–8)</p>
+    <p>العام الدراسي 2026 / 2027</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#team">فريق القسم</a></li>
+        <li><a href="#activities">الأنشطة</a></li>
+        <li><a href="#resources">المصادر التعليمية</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+
+<section class="hero" id="home">
+    <h2>مرحبًا بكم في موقع قسم التربية الإسلامية</h2>
+    <p>
+        منصة إلكترونية تجمع أعمال قسم التربية الإسلامية،
+        والأنشطة التعليمية، والمصادر، والمبادرات، وأعمال المعلمين
+        في مكان واحد.
+    </p>
+
+    <div class="notice">
+        <h3>رسالتنا</h3>
+        <p>
+            الارتقاء بتعليم التربية الإسلامية وتنمية القيم والمهارات
+            لدى الطلبة من خلال بيئة تعليمية محفزة وشراكة فاعلة.
+        </p>
+    </div>
+</section>
+
+<h2 class="section-title">خدمات القسم</h2>
+
+<section class="cards" id="resources">
+
+    <div class="card">
+        <div class="icon">📚</div>
+        <h3>المصادر التعليمية</h3>
+        <p>ملفات ودروس وأنشطة تعليمية مساندة لمعلمي وطلبة التربية الإسلامية.</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">📝</div>
+        <h3>التحضير والتقويم</h3>
+        <p>نماذج وأفكار للتحضير والتقويم المستمر ومتابعة تعلم الطلبة.</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">🏆</div>
+        <h3>المبادرات والتميز</h3>
+        <p>عرض مبادرات القسم وبرامج التحفيز والتميز والأنشطة التربوية.</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">💡</div>
+        <h3>التطوير المهني</h3>
+        <p>ورش ومشاغل وتجارب مهنية تسهم في تطوير أداء معلمي القسم.</p>
+    </div>
+
+</section>
+
+<h2 class="section-title">فريق قسم التربية الإسلامية</h2>
+
+<section class="team" id="team">
+
+    <div class="teacher">
+        <span>الأستاذ سالم الريامي</span>
+        <span class="badge">المعلم الأول</span>
+    </div>
+
+    <div class="teacher">
+        <span>الأستاذ عادل العبري</span>
+        <span class="badge">معلم تربية إسلامية</span>
+    </div>
+
+    <div class="teacher">
+        <span>الأستاذ هيثم النصيبي</span>
+        <span class="badge">معلم تربية إسلامية</span>
+    </div>
+
+    <div class="teacher">
+        <span>الأستاذ حسين الناصري</span>
+        <span class="badge">معلم تربية إسلامية</span>
+    </div>
+
+    <div class="teacher">
+        <span>الأستاذ يوسف البسامي</span>
+        <span class="badge">معلم تربية إسلامية</span>
+    </div>
+
+    <div class="teacher">
+        <span>الأستاذ صالح الحضرمي</span>
+        <span class="badge">معلم تربية إسلامية</span>
+    </div>
+
+</section>
+
+<h2 class="section-title">الأنشطة والمبادرات</h2>
+
+<section class="cards" id="activities">
+
+    <div class="card">
+        <div class="icon">🌱</div>
+        <h3>المبادرات الطلابية</h3>
+        <p>مبادرات تربوية وإيمانية تسهم في بناء شخصية الطالب.</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">📖</div>
+        <h3>القرآن الكريم</h3>
+        <p>برامج ومناشط حفظ القرآن الكريم وتشجيع الطلبة على العناية به.</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">🎓</div>
+        <h3>التكريم والإنجاز</h3>
+        <p>توثيق إنجازات الطلبة والمعلمين والبرامج المتميزة بالقسم.</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">💻</div>
+        <h3>التحول الرقمي</h3>
+        <p>توظيف المنصات والتقنيات الحديثة في تعليم التربية الإسلامية.</p>
+    </div>
+
+</section>
+
+<section class="hero" id="contact" style="margin-top:35px;">
+    <h2>تواصل معنا</h2>
+    <p>
+        قسم التربية الإسلامية<br>
+        مدرسة الشيخ أبو قحطان الهجاري (5–8)
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>قسم التربية الإسلامية</p>
+    <p>مدرسة الشيخ أبو قحطان الهجاري (5–8)</p>
+    <p>العام الدراسي 2026 / 2027</p>
+</footer>
+
+</body>
+</html>
